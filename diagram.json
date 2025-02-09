@@ -1,0 +1,1346 @@
+{
+    "version": 1,
+    "author": "Jordan Humberto de Souza",
+    "editor": "wokwi",
+    "parts": [
+        {
+            "type": "wokwi-breadboard-mini",
+            "id": "bb1",
+            "top": 0,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "board-ssd1306",
+            "id": "oled1",
+            "top": 60,
+            "left": 80,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-pushbutton",
+            "id": "btn1",
+            "top": 83,
+            "left": 240,
+            "attrs": {
+                "color": "red",
+                "label": "B"
+            }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "r1",
+            "top": 216,
+            "left": 316.25,
+            "rotate": 90,
+            "attrs": {
+                "value": "10000"
+            }
+        },
+        {
+            "type": "wokwi-pushbutton",
+            "id": "btn2",
+            "top": 25.4,
+            "left": 240,
+            "attrs": {
+                "color": "red",
+                "label": "A"
+            }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "r2",
+            "top": 216,
+            "left": 277.85,
+            "rotate": 90,
+            "attrs": {
+                "value": "10000"
+            }
+        },
+        {
+            "type": "wokwi-vcc",
+            "id": "vcc1",
+            "top": 87.16,
+            "left": -48,
+            "attrs": {}
+        },
+        {
+            "type": "board-pi-pico-w",
+            "id": "pico1",
+            "top": 145.45,
+            "left": 37.55,
+            "rotate": 270,
+            "attrs": {
+                "builder": "pico-sdk"
+            }
+        },
+        {
+            "type": "wokwi-led",
+            "id": "led1",
+            "top": 385.6,
+            "left": 109.8,
+            "rotate": 180,
+            "attrs": {
+                "color": "green"
+            }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "r3",
+            "top": 350.4,
+            "left": 105.05,
+            "rotate": 90,
+            "attrs": {
+                "value": "220"
+            }
+        },
+        {
+            "type": "wokwi-led",
+            "id": "led2",
+            "top": 385.6,
+            "left": 90.6,
+            "rotate": 180,
+            "attrs": {
+                "color": "blue"
+            }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "r4",
+            "top": 350.4,
+            "left": 85.85,
+            "rotate": 90,
+            "attrs": {
+                "value": "220"
+            }
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb1",
+            "top": 380.5,
+            "left": -173.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb2",
+            "top": 380.5,
+            "left": -231.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb3",
+            "top": 380.5,
+            "left": -289,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd1",
+            "top": 412.8,
+            "left": -125.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-vcc",
+            "id": "vcc2",
+            "top": 317.56,
+            "left": -124.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb4",
+            "top": 380.5,
+            "left": -346.6,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb5",
+            "top": 380.5,
+            "left": -413.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb6",
+            "top": 265.3,
+            "left": -173.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb7",
+            "top": 265.3,
+            "left": -231.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb8",
+            "top": 265.3,
+            "left": -289,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb9",
+            "top": 265.3,
+            "left": -413.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb10",
+            "top": 265.3,
+            "left": -356.2,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb11",
+            "top": 159.7,
+            "left": -173.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb12",
+            "top": 159.7,
+            "left": -231.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb13",
+            "top": 159.7,
+            "left": -289,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb14",
+            "top": 159.7,
+            "left": -356.2,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb15",
+            "top": 159.7,
+            "left": -413.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb16",
+            "top": 63.7,
+            "left": -413.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb17",
+            "top": 63.7,
+            "left": -356.2,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb18",
+            "top": 63.7,
+            "left": -289,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb19",
+            "top": 63.7,
+            "left": -231.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb20",
+            "top": 63.7,
+            "left": -173.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb21",
+            "top": -13.1,
+            "left": -173.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb22",
+            "top": -13.1,
+            "left": -231.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb23",
+            "top": -13.1,
+            "left": -289,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb24",
+            "top": -13.1,
+            "left": -356.2,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-neopixel",
+            "id": "rgb25",
+            "top": -13.1,
+            "left": -423.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-vcc",
+            "id": "vcc3",
+            "top": 192.76,
+            "left": -451.2,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd2",
+            "top": 316.8,
+            "left": -451.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-vcc",
+            "id": "vcc4",
+            "top": 115.96,
+            "left": -124.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd3",
+            "top": 192,
+            "left": -125.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd4",
+            "top": 115.2,
+            "left": -461.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-vcc",
+            "id": "vcc5",
+            "top": 10.36,
+            "left": -460.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-vcc",
+            "id": "vcc6",
+            "top": -76.04,
+            "left": -124.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd5",
+            "top": 19.2,
+            "left": -125.4,
+            "attrs": {}
+        }
+    ],
+    "connections": [
+        [
+            "bb1:2b.f",
+            "bb1:2t.e",
+            "black",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:3b.f",
+            "bb1:3t.e",
+            "red",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:4b.f",
+            "bb1:4t.e",
+            "purple",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:5b.f",
+            "bb1:5t.e",
+            "orange",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:2t.d",
+            "bb1:12t.d",
+            "black",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:3t.c",
+            "bb1:13t.c",
+            "red",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:4t.b",
+            "bb1:14t.b",
+            "purple",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:5t.a",
+            "bb1:15t.a",
+            "orange",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:12t.e",
+            "oled1:GND",
+            "black",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:13t.e",
+            "oled1:VCC",
+            "red",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:14t.e",
+            "oled1:SCL",
+            "purple",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:15t.e",
+            "oled1:SDA",
+            "orange",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:2t.a",
+            "bb1:17t.a",
+            "black",
+            [
+                "v-7.93",
+                "h144"
+            ]
+        ],
+        [
+            "bb1:15t.d",
+            "bb1:16t.d",
+            "orange",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "bb1:3b.j",
+            "vcc1:VCC",
+            "red",
+            [
+                "v37",
+                "h-69.6"
+            ]
+        ],
+        [
+            "r1:1",
+            "r2:1",
+            "red",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "r2:2",
+            "pico1:GP6",
+            "violet",
+            [
+                "v56.4",
+                "h-240"
+            ]
+        ],
+        [
+            "r1:2",
+            "pico1:GP5",
+            "gray",
+            [
+                "v66",
+                "h-297.6"
+            ]
+        ],
+        [
+            "r1:2",
+            "btn1:2.r",
+            "blue",
+            [
+                "h9.6",
+                "v-135.6"
+            ]
+        ],
+        [
+            "r2:2",
+            "btn2:2.r",
+            "violet",
+            [
+                "h-9.6",
+                "v-116.4",
+                "h19.2",
+                "v-76.8"
+            ]
+        ],
+        [
+            "pico1:GND.5",
+            "btn1:1.l",
+            "black",
+            [
+                "v-48.31",
+                "h67.24",
+                "v-67.2"
+            ]
+        ],
+        [
+            "btn1:1.l",
+            "btn2:1.l",
+            "black",
+            [
+                "h-19.2",
+                "v-57.6"
+            ]
+        ],
+        [
+            "bb1:2b.j",
+            "pico1:GND.8",
+            "black",
+            [
+                "v56.2",
+                "h-12"
+            ]
+        ],
+        [
+            "bb1:4b.j",
+            "pico1:GP15",
+            "purple",
+            [
+                "v75.4",
+                "h141.6",
+                "v96",
+                "h-9.6"
+            ]
+        ],
+        [
+            "bb1:5b.j",
+            "pico1:GP14",
+            "orange",
+            [
+                "v85",
+                "h141.6",
+                "v96",
+                "h-28.84"
+            ]
+        ],
+        [
+            "r2:1",
+            "pico1:3V3",
+            "red",
+            [
+                "h0",
+                "v-9.6",
+                "h-278.4"
+            ]
+        ],
+        [
+            "pico1:GP12",
+            "led1:A",
+            "limegreen",
+            [
+                "v19.2",
+                "h-9.56"
+            ]
+        ],
+        [
+            "r3:2",
+            "led1:C",
+            "black",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "r3:1",
+            "pico1:GND.4",
+            "black",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "led2:A",
+            "pico1:GP11",
+            "blue",
+            [
+                "v-105.6",
+                "h19.2"
+            ]
+        ],
+        [
+            "r4:2",
+            "led2:C",
+            "black",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "r4:1",
+            "r3:1",
+            "black",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "gnd1:GND",
+            "rgb1:VSS",
+            "black",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb1:DOUT",
+            "rgb2:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-10.5"
+            ]
+        ],
+        [
+            "rgb2:DOUT",
+            "rgb3:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-10.5"
+            ]
+        ],
+        [
+            "rgb2:VSS",
+            "gnd1:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb3:VSS",
+            "gnd1:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb3:VDD",
+            "vcc2:VCC",
+            "green",
+            [
+                "v-38.4",
+                "h153.6"
+            ]
+        ],
+        [
+            "rgb2:VDD",
+            "vcc2:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb1:VDD",
+            "vcc2:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb4:VDD",
+            "vcc2:VCC",
+            "green",
+            [
+                "h-19.2",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb5:VDD",
+            "vcc2:VCC",
+            "green",
+            [
+                "h0",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb4:VSS",
+            "gnd1:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb5:VSS",
+            "gnd1:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb3:DOUT",
+            "rgb4:DIN",
+            "green",
+            [
+                "h-28.8",
+                "v-0.9"
+            ]
+        ],
+        [
+            "rgb4:DOUT",
+            "rgb5:DIN",
+            "green",
+            [
+                "h-28.8",
+                "v-10.5"
+            ]
+        ],
+        [
+            "rgb5:DOUT",
+            "rgb9:DIN",
+            "green",
+            [
+                "h-76.8",
+                "v-154.5",
+                "h105.6",
+                "v28.8"
+            ]
+        ],
+        [
+            "rgb9:DOUT",
+            "rgb10:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v18.3",
+                "h57.6",
+                "v-57.6",
+                "h57.6",
+                "v28.8"
+            ]
+        ],
+        [
+            "rgb10:DOUT",
+            "rgb8:DIN",
+            "green",
+            [
+                "h-9.6",
+                "v18.3",
+                "h57.6",
+                "v-57.6",
+                "h48",
+                "v28.8"
+            ]
+        ],
+        [
+            "rgb8:DOUT",
+            "rgb7:DIN",
+            "green",
+            [
+                "h-9.6",
+                "v18.3",
+                "h48",
+                "v-57.6",
+                "h48",
+                "v28.8"
+            ]
+        ],
+        [
+            "rgb7:DOUT",
+            "rgb6:DIN",
+            "green",
+            [
+                "h-9.6",
+                "v18.3",
+                "h48",
+                "v-57.6",
+                "h57.6",
+                "v28.8"
+            ]
+        ],
+        [
+            "rgb6:DOUT",
+            "rgb11:DIN",
+            "green",
+            [
+                "h-9.6",
+                "v18.3",
+                "h86.4",
+                "v-134.4"
+            ]
+        ],
+        [
+            "rgb11:DOUT",
+            "rgb12:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-10.5"
+            ]
+        ],
+        [
+            "rgb12:DOUT",
+            "rgb13:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-10.5"
+            ]
+        ],
+        [
+            "rgb13:DOUT",
+            "rgb14:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-0.9"
+            ]
+        ],
+        [
+            "rgb14:DOUT",
+            "rgb15:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-10.5",
+                "h-9.6",
+                "v0",
+                "h-9.6"
+            ]
+        ],
+        [
+            "rgb9:VDD",
+            "vcc3:VCC",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "rgb10:VDD",
+            "vcc3:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-48"
+            ]
+        ],
+        [
+            "rgb8:VDD",
+            "vcc3:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-48"
+            ]
+        ],
+        [
+            "rgb7:VDD",
+            "vcc3:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-48"
+            ]
+        ],
+        [
+            "rgb6:VDD",
+            "vcc3:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-9.6"
+            ]
+        ],
+        [
+            "rgb6:VSS",
+            "gnd2:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb7:VSS",
+            "gnd2:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb8:VSS",
+            "gnd2:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb10:VSS",
+            "gnd2:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb9:VSS",
+            "gnd2:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb15:DOUT",
+            "rgb16:DIN",
+            "green",
+            [
+                "h-76.8",
+                "v-125.7",
+                "h105.6",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb16:DOUT",
+            "rgb17:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v18.3",
+                "h57.6",
+                "v-48",
+                "h57.6",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb17:DOUT",
+            "rgb18:DIN",
+            "green",
+            [
+                "h-9.6",
+                "v18.3",
+                "h57.6",
+                "v-48",
+                "h48",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb18:DOUT",
+            "rgb19:DIN",
+            "green",
+            [
+                "h-9.6",
+                "v18.3",
+                "h48",
+                "v-48",
+                "h48",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb19:DOUT",
+            "rgb20:DIN",
+            "green",
+            [
+                "h-9.6",
+                "v18.3",
+                "h48",
+                "v-48",
+                "h57.6",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb20:DOUT",
+            "rgb21:DIN",
+            "green",
+            [
+                "h-9.6",
+                "v18.3",
+                "h86.4",
+                "v-105.6"
+            ]
+        ],
+        [
+            "rgb21:DOUT",
+            "rgb22:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-10.5"
+            ]
+        ],
+        [
+            "rgb22:DOUT",
+            "rgb23:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-10.5"
+            ]
+        ],
+        [
+            "rgb23:DOUT",
+            "rgb24:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-0.9"
+            ]
+        ],
+        [
+            "rgb24:DOUT",
+            "rgb25:DIN",
+            "green",
+            [
+                "h-19.2",
+                "v-10.5"
+            ]
+        ],
+        [
+            "rgb11:VSS",
+            "gnd3:GND",
+            "green",
+            [
+                "v-0.9",
+                "h8.8"
+            ]
+        ],
+        [
+            "rgb12:VSS",
+            "gnd3:GND",
+            "green",
+            [
+                "v-0.9",
+                "h8.8",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb13:VSS",
+            "gnd3:GND",
+            "green",
+            [
+                "v-0.9",
+                "h8.8",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb14:VSS",
+            "gnd3:GND",
+            "green",
+            [
+                "v-0.9",
+                "h18.4",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb15:VSS",
+            "gnd3:GND",
+            "green",
+            [
+                "v-0.9",
+                "h8.8",
+                "v19.2"
+            ]
+        ],
+        [
+            "rgb11:VDD",
+            "vcc4:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-19.2"
+            ]
+        ],
+        [
+            "rgb12:VDD",
+            "vcc4:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-19.2"
+            ]
+        ],
+        [
+            "rgb13:VDD",
+            "vcc4:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-9.6"
+            ]
+        ],
+        [
+            "rgb14:VDD",
+            "vcc4:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-19.2"
+            ]
+        ],
+        [
+            "rgb15:VDD",
+            "vcc4:VCC",
+            "green",
+            [
+                "h-19.2",
+                "v-19.2"
+            ]
+        ],
+        [
+            "rgb16:VSS",
+            "gnd4:GND",
+            "green",
+            [
+                "v37.5",
+                "h-0.8"
+            ]
+        ],
+        [
+            "rgb17:VSS",
+            "gnd4:GND",
+            "green",
+            [
+                "v37.5",
+                "h-10.4"
+            ]
+        ],
+        [
+            "rgb18:VSS",
+            "gnd4:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb19:VSS",
+            "gnd4:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb20:VSS",
+            "gnd4:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb16:VDD",
+            "vcc5:VCC",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "rgb17:VDD",
+            "vcc5:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-28.8",
+                "h-86.4"
+            ]
+        ],
+        [
+            "rgb18:VDD",
+            "vcc5:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb19:VDD",
+            "vcc5:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-28.8"
+            ]
+        ],
+        [
+            "rgb20:VDD",
+            "vcc5:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-28.8"
+            ]
+        ],
+        [
+            "rgb24:VDD",
+            "vcc6:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb23:VDD",
+            "vcc6:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb22:VDD",
+            "vcc6:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb21:VDD",
+            "vcc6:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-28.8"
+            ]
+        ],
+        [
+            "rgb25:VDD",
+            "vcc6:VCC",
+            "green",
+            [
+                "h-9.6",
+                "v-38.4"
+            ]
+        ],
+        [
+            "rgb21:VSS",
+            "gnd5:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb22:VSS",
+            "gnd5:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb23:VSS",
+            "gnd5:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb24:VSS",
+            "gnd5:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "rgb25:VSS",
+            "gnd5:GND",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "pico1:GP7",
+            "rgb1:DIN",
+            "green",
+            [
+                "v115.2"
+            ]
+        ]
+    ],
+    "dependencies": {}
+}

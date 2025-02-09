@@ -35,13 +35,16 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(U4C6O12T_-_TAREFA_WLS main.c )
+add_executable(U4C6O12T_-_TAREFA_WLS main.c inc/ssd1306.c)
+
+# Generate PIO header
+pico_generate_pio_header(${CMAKE_PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
 
 pico_set_program_name(U4C6O12T_-_TAREFA_WLS "U4C6O12T_-_TAREFA_WLS")
 pico_set_program_version(U4C6O12T_-_TAREFA_WLS "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(U4C6O12T_-_TAREFA_WLS 1)
+pico_enable_stdio_uart(U4C6O12T_-_TAREFA_WLS 0)
 pico_enable_stdio_usb(U4C6O12T_-_TAREFA_WLS 1)
 
 # Add the standard library to the build
@@ -55,9 +58,10 @@ target_include_directories(U4C6O12T_-_TAREFA_WLS PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(U4C6O12T_-_TAREFA_WLS 
+        hardware_pio
         hardware_i2c
         hardware_clocks
-        
+        hardware_uart
         )
 
 pico_add_extra_outputs(U4C6O12T_-_TAREFA_WLS)
