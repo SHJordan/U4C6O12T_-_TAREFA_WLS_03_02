@@ -6,8 +6,8 @@
         {
             "type": "wokwi-breadboard-mini",
             "id": "bb1",
-            "top": 0,
-            "left": 0,
+            "top": -1.4,
+            "left": -2.4,
             "attrs": {}
         },
         {
@@ -20,11 +20,11 @@
         {
             "type": "wokwi-pushbutton",
             "id": "btn1",
-            "top": 83,
-            "left": 240,
+            "top": 13,
+            "left": 489.8,
+            "rotate": 180,
             "attrs": {
-                "color": "red",
-                "label": "B"
+                "color": "blue"
             }
         },
         {
@@ -32,7 +32,7 @@
             "id": "r1",
             "top": 216,
             "left": 316.25,
-            "rotate": 90,
+            "rotate": 270,
             "attrs": {
                 "value": "10000"
             }
@@ -40,19 +40,19 @@
         {
             "type": "wokwi-pushbutton",
             "id": "btn2",
-            "top": 25.4,
-            "left": 240,
+            "top": 80.2,
+            "left": 489.8,
+            "rotate": 180,
             "attrs": {
-                "color": "red",
-                "label": "A"
+                "color": "red"
             }
         },
         {
             "type": "wokwi-resistor",
             "id": "r2",
-            "top": 216,
-            "left": 277.85,
-            "rotate": 90,
+            "top": 224.2,
+            "left": 287.15,
+            "rotate": 270,
             "attrs": {
                 "value": "10000"
             }
@@ -67,9 +67,8 @@
         {
             "type": "board-pi-pico-w",
             "id": "pico1",
-            "top": 145.45,
-            "left": 37.55,
-            "rotate": 270,
+            "top": 188.75,
+            "left": 435.55,
             "attrs": {
                 "builder": "pico-sdk"
             }
@@ -77,9 +76,9 @@
         {
             "type": "wokwi-led",
             "id": "led1",
-            "top": 385.6,
-            "left": 109.8,
-            "rotate": 180,
+            "top": 316,
+            "left": 78.2,
+            "rotate": 270,
             "attrs": {
                 "color": "green"
             }
@@ -87,9 +86,9 @@
         {
             "type": "wokwi-resistor",
             "id": "r3",
-            "top": 350.4,
-            "left": 105.05,
-            "rotate": 90,
+            "top": 340.25,
+            "left": 219.4,
+            "rotate": 180,
             "attrs": {
                 "value": "220"
             }
@@ -97,9 +96,9 @@
         {
             "type": "wokwi-led",
             "id": "led2",
-            "top": 385.6,
-            "left": 90.6,
-            "rotate": 180,
+            "top": 287.2,
+            "left": 78.2,
+            "rotate": 270,
             "attrs": {
                 "color": "blue"
             }
@@ -107,9 +106,9 @@
         {
             "type": "wokwi-resistor",
             "id": "r4",
-            "top": 350.4,
-            "left": 85.85,
-            "rotate": 90,
+            "top": 311.45,
+            "left": 219.4,
+            "rotate": 180,
             "attrs": {
                 "value": "220"
             }
@@ -488,45 +487,45 @@
             "r2:1",
             "red",
             [
-                "h0"
+                "h-0.3",
+                "v8.2"
             ]
         ],
         [
             "r2:2",
             "pico1:GP6",
-            "violet",
+            "#8f4814",
             [
-                "v56.4",
-                "h-240"
+                "v1.2",
+                "h96",
+                "v76.8"
             ]
         ],
         [
             "r1:2",
             "pico1:GP5",
-            "gray",
+            "limegreen",
             [
-                "v66",
-                "h-297.6"
+                "h76.5",
+                "v67"
             ]
         ],
         [
             "r1:2",
             "btn1:2.r",
-            "blue",
+            "limegreen",
             [
-                "h9.6",
-                "v-135.6"
+                "h-0.3",
+                "v-153.6"
             ]
         ],
         [
             "r2:2",
             "btn2:2.r",
-            "violet",
+            "#8f4814",
             [
-                "h-9.6",
-                "v-116.4",
-                "h19.2",
-                "v-76.8"
+                "v-94.8",
+                "h182.6"
             ]
         ],
         [
@@ -534,9 +533,9 @@
             "btn1:1.l",
             "black",
             [
-                "v-48.31",
-                "h67.24",
-                "v-67.2"
+                "v0.04",
+                "h77.11",
+                "v-307.2"
             ]
         ],
         [
@@ -544,8 +543,8 @@
             "btn2:1.l",
             "black",
             [
-                "h-19.2",
-                "v-57.6"
+                "h28.8",
+                "v67.2"
             ]
         ],
         [
@@ -584,9 +583,10 @@
             "pico1:3V3",
             "red",
             [
-                "h0",
-                "v-9.6",
-                "h-278.4"
+                "h-38.4",
+                "v-76.8",
+                "h249.6",
+                "v57.6"
             ]
         ],
         [
@@ -619,8 +619,8 @@
             "pico1:GP11",
             "blue",
             [
-                "v-105.6",
-                "h19.2"
+                "h182.4",
+                "v28.8"
             ]
         ],
         [

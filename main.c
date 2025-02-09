@@ -125,8 +125,8 @@ void gpio_callback(uint gpio, uint32_t events)
             ssd1306_fill(&ssd, false); // Limpa o display
             ssd1306_draw_string(&ssd, "== SHJORDAN ==", 8, 35);
             sprintf(msg, "Botao %c", btnStr);
-            ssd1306_draw_string(&ssd, msg, 0, 0);   // Escreve a mensagem
-            ssd1306_draw_string(&ssd, msg2, 0, 20); // Escreve a mensagem
+            ssd1306_draw_string(&ssd, msg, 8, 8);   // Escreve a mensagem
+            ssd1306_draw_string(&ssd, msg2, 8, 20); // Escreve a mensagem
             ssd1306_send_data(&ssd);                // Envia para o display
         }
     }
@@ -155,8 +155,8 @@ void gpio_callback(uint gpio, uint32_t events)
             ssd1306_fill(&ssd, false); // Limpa o display
             ssd1306_draw_string(&ssd, "== SHJORDAN ==", 8, 35);
             sprintf(msg, "Botao %c", btnStr);
-            ssd1306_draw_string(&ssd, msg, 0, 0);   // Escreve a mensagem
-            ssd1306_draw_string(&ssd, msg2, 0, 20); // Escreve a mensagem
+            ssd1306_draw_string(&ssd, msg, 8, 8);   // Escreve a mensagem
+            ssd1306_draw_string(&ssd, msg2, 8, 20); // Escreve a mensagem
             ssd1306_send_data(&ssd);                // Envia para o display
         }
     }
@@ -377,7 +377,7 @@ int main()
             ssd1306_fill(&ssd, false);
             ssd1306_draw_string(&ssd, "== SHJORDAN ==", 8, 35);
             sprintf(buf, "Digito: %c", ch);
-            ssd1306_draw_string(&ssd, buf, 0, 0);
+            ssd1306_draw_string(&ssd, buf, 8, 8);
             ssd1306_send_data(&ssd);
 
             printf("Recebido: %c\n", ch);
