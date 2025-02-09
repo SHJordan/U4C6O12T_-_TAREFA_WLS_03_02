@@ -169,6 +169,11 @@ void display_digit_on_matrix(char digit)
 
     switch (digit)
     {
+        // [ 4, 4], [ 3, 4], [ 2, 4], [ 1, 4][0, 4],
+        // [ 0, 3], [ 1, 3], [ 2, 3], [ 3, 3][4, 3],
+        // [ 4, 2], [ 3, 2], [ 2, 2], [ 1, 2][0, 2],
+        // [ 0, 1], [ 1, 1], [ 2, 1], [ 3, 1][4, 1],
+        // [ 4, 0], [ 3, 0], [ 2, 0], [ 1, 0][0, 0]
     case '0':
         // Desenha a borda em verde formando "0"
         for (int y = 0; y < MATRIX_HEIGHT; y++)
@@ -190,11 +195,6 @@ void display_digit_on_matrix(char digit)
         break;
     case '2':
         // Diagonal vermelha para "2"
-        // [ 4, 4], [ 3, 4], [ 2, 4], [ 1, 4][0, 4],
-        // [ 0, 3], [ 1, 3], [ 2, 3], [ 3, 3][4, 3],
-        // [ 4, 2], [ 3, 2], [ 2, 2], [ 1, 2][0, 2],
-        // [ 0, 1], [ 1, 1], [ 2, 1], [ 3, 1][4, 1],
-        // [ 4, 0], [ 3, 0], [ 2, 0], [ 1, 0][0, 0]
         ws2812_set_pixel(3, 4, 0xFF0000);
         ws2812_set_pixel(2, 4, 0xFF0000);
         ws2812_set_pixel(1, 4, 0xFF0000);
